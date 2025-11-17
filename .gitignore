@@ -1,0 +1,37 @@
+# Ambiente Virtual (Obrigatório)
+venv/
+*.venv
+.venv
+
+# Python / Django
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+
+# Arquivos de 'collectstatic'
+# O destino do 'collectstatic' não deve ir para o repositório.
+# No seu servidor é '/var/www/galp/static/', mas no dev pode ser 'staticfiles/'
+staticfiles/
+static_root/
+
+# Mídia (Uploads de Usuário)
+media/
+
+# Banco de Dados (para dev local)
+db.sqlite3
+*.sqlite
+*.sql
+
+# Logs
+*.log
+
+# Variáveis de Ambiente (MUITO IMPORTANTE)
+.env
+*.env
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
